@@ -528,7 +528,7 @@ namespace log4stash.Tests.Integration
         }
 
         [Test]
-        [Ignore("the build agent have problems on running performance")]
+        [NUnit.Framework.Ignore("the build agent have problems on running performance")]
         public static void Performance()
         {
             ElasticAppenderFilters oldFilters = null;
